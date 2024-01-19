@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>反射型 XSS 示例</h2>
+    <p>你的搜索结果: <script>document.write(decodeURIComponent(window.location.search.substring(1)));</script></p>
+</body>
+</html>
